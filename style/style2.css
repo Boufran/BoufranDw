@@ -92,7 +92,24 @@ header{
         height: 220px;
         border: #3a4754 solid 5px;
         border-radius: 5%;
+        animation-name: vayviene;
+        animation-duration: 1s;
+        animation-iteration-count: 3;
         }
+    @keyframes vayviene{
+        0% {
+        top: 0px;
+        }
+        50% {
+        top: 249px;
+        width: 130px;
+        height: 70px;
+        }
+        100% {
+            top: 0px;
+            }
+        }
+        
     #imgIndex{
         grid-row: 2/3;
         justify-content: center;
@@ -117,7 +134,23 @@ header{
     body{
         background-size: contain;
         background-position: center;
+        animation-name: sombreado;
+        animation-duration: 1s;
     }
+    
+    @keyframes sombreado {
+        0% {
+        background-color: #ff8928c2;
+        }
+        50% {
+            background-color:#ff892898 ;
+        }
+        100% {
+        background-color: #ff8728;
+        }
+    }
+    
+    
     #navegador{
         font-size: 15px;
         text-align: center;
@@ -179,6 +212,14 @@ header{
         -webkit-transform: translateX(0);
         -webkit-transition-duration: 0.3s;
         }
+    .center_border:hover{
+        animation: 0.2s vibrar 0.1s;
+        }
+    @keyframes vibrar
+        {
+        5%, 25%, 45%, 65%, 85% { transform: translateX(-10px); }
+        15%, 35%, 55%, 75%, 95% { transform: translateX(10px); }
+        }   
     #descripcionIndex{
         grid-row: 3/4;
         grid-column: 1/3;
