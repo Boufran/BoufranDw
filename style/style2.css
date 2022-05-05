@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/images/Mecánico\ Llave\ Minimalista\ Tarjeta\ de\ Presentación.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #ff8728;
+    background-color: #79DAE8;
 }
 header{
     height: 80px;
@@ -16,7 +13,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     padding: 20px;
-    background-color: #3a4754;
+    background-color: #E8F9FD;
 }
 #navegador{
     float: right;
@@ -54,7 +51,7 @@ header{
     text-align: center;
 }
 #footerTodos{
-    background-color: #3a4754;
+    background-color: #2155CD;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
