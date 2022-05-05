@@ -5,52 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bou Francisco</title>
+    <link rel="icon" href="images/Mecánico Llave Minimalista Tarjeta de Presentación.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav>
-        <ul>
-            <a href="../index.html"><li>INICIO</li></a>
-            <a href="servicios.html"><li>SERVICIOS</li></a>
-            <a href="turnos.html"><li>TURNOS</li></a>
-            <a href="consejos.html"><li>CONSEJOS</li></a>
-            <a href="contacto.html"><li>CONTACTO</li></a>
-        </ul>
+<!--Navegador 2nd paginas -->
+<div style="background-color: #2155CD">    
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        <div class="collapse navbar-collapse" id="basicExampleNav"> 
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="consejos.html">Consejos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </div>
+            </form>
+        </div>
     </nav>
-    <main>
-        <form action="enviar.php" method="post" enctype="text/plain">
-            <fieldset>
-                <label for="nombre">Nombre</label>
-                <input type="text" placeholder="escribe tu nombre" name="nombre">
-                    <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" placeholder="escribe tu apellido" name="apellido">
-                    <br>
-                <label for="telefono">Telefono</label>
-                <input type="number" placeholder="escribe tu telefono" name="telefono">
-                    <br>
-                <label for="mail">Mail</label>
-                <input type="email" placeholder="escribe tu mail" name="mail">
-                    <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="escribe tu mensaje"></textarea>
-                    <br>
-                <input type="submit" value="enviando">
-            </fieldset>
-        </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13155.275752786185!2d-58.5057234!3d-34.4821172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8497bf87576bdb9!2sAcassuso%20Bike%20Center%20Rodados!5e0!3m2!1ses-419!2sar!4v1648434274665!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Navegador 2nd paginas -->
+    <!-- Contacto y mapa  -->
+    <div class="row" id="contatti">
+        <div class="container mt-5" >
         
-    </main>
-    <footer id="footerTodos">
-        <div>
-            <p>Todos los derechos reservados por copyrigth</p>
+            <div class="row" style="height:550px;">
+              <div class="col-md-6 maps" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13155.275752786185!2d-58.5057234!3d-34.4821172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8497bf87576bdb9!2sAcassuso%20Bike%20Center%20Rodados!5e0!3m2!1ses-419!2sar!4v1648434274665!5m2!1ses-419!2sar" height="100%" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="col-md-6">
+                <h2 class="text-uppercase mt-3 font-weight-bold text-white">Contacto</h2>
+                <form action="">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control mt-2" placeholder="Nombre" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control mt-2" placeholder="Apellido" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control mt-2" placeholder="Email" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="number" class="form-control mt-2" placeholder="Telefono" required>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Insertar texto" rows="3" required></textarea>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Acepto
+                        </label>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-light" type="submit">Enviar</button>
+                    </div>
+                  </div>
+                </form>
+                
+              </div>
+        
+            </div>
         </div>
-        <div>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
         </div>
-    </footer>
+      
+
+        </div>
+        </div>
+    <!-- Contacto y mapa  -->
+<!-- Footer -->
+<div id="NUESTRAS REDES">
+    <div>
+        <p>Todos los derechos reservados por copyrigth</p>
+    </div>
+    <div>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+</div>
+<!-- footer -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
