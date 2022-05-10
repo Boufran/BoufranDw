@@ -1,97 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-body{
-    background-image: url(/images/Mecánico\ Llave\ Minimalista\ Tarjeta\ de\ Presentación.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #ff8728;
+body {
+  background-color: #79DAE8;
 }
 
-/* Responsive de desktop*/
-
-@media only screen and (min-width: 1024px ){
-header{
-    height: 80px;
-    width: 100%;
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-    padding: 20px;
-    background-color: #3a4754;
+header {
+  height: 80px;
+  width: 100%;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #E8F9FD;
 }
 
-#navegador{
-    float: right;
+#descripcionIndex {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  text-align: center;
 }
 
-.nav{
-    list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
+#footerTodos {
+  background-color: #2155CD;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #E8F9FD;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 }
-
-#navegador ul a{
-    text-decoration: none;
-}
-
-#navegador ul a{
-    display: inline-block;
-    color: #ffff;
-}
-
-#navegador a:hover{
-    color: black;
-}
-
-main{
-    height: calc(100vh - 80px);
-    width: 100%;
-}
-
-#tituloIndex{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 35px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bold
-}
-
-
-main img{
-    height: 300px;
-    width: 300px;
-}
-
-main img{
-    display: flex;
-    
-}
-
-#imgIndex{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-}
-
-#descripcionIndex{
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 25px;
-    text-align: center;
-}
-
-#footerTodos{
-    background-color: #3a4754;
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffff;
-}
-}
+/*# sourceMappingURL=style.css.map */

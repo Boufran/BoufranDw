@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+$color1:#79DAE8;
+$color2:#E8F9FD;
+$color3:#2155CD;
+
 body{
-    background-color: #79DAE8;
+    background-color: $color1;
 }
 header{
     height: 80px;
@@ -13,9 +18,8 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     padding: 20px;
-    background-color: #E8F9FD;
+    background-color: $color2;
 }
-
 #descripcionIndex{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,12 +27,12 @@ header{
     text-align: center;
 }
 #footerTodos{
-    background-color: #2155CD;
+    background-color: $color3;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color: #ffff;
+    color: $color2;
     width: 100%;
     position: fixed;
     left:0px;
