@@ -6,10 +6,25 @@
 
 $color1:#79DAE8;
 $color2:#E8F9FD;
-$color3:#2155CD;
+$color3:#3b5998;
 
 body{
+    background-color: $color2;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 110px;
+}
+#navegador, #navegadorSecundario{
     background-color: $color1;
+    border: solid 2px black;
+}
+.navbar-dark .navbar-brand {
+    color: $color3;
+    font-size: 40px ;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: $color3;
+    font-size: 20px;
 }
 header{
     height: 80px;
@@ -18,7 +33,18 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     padding: 20px;
-    background-color: $color2;
+    background-color: $color1;
+}
+#tituloIndex, #telefonoDireccion{
+    color: $color3;
+    margin: 20px 20px;
+}
+#telefonoDireccion{
+    font-size: 35px;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
 }
 #descripcionIndex{
     font-size: 20px;
@@ -26,16 +52,20 @@ header{
     margin-top: 25px;
     text-align: center;
 }
+#tituloContacto{
+    color: $color3;
+}
 #footerTodos{
-    background-color: $color3;
+    background-color: $color1;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color: $color2;
+    color: $color3;
     width: 100%;
-    position: fixed;
+    position: absolute;
     left:0px;
     bottom:0px;
-    width:100%
+    border:solid 2px black;
+    height: 100px;
 }

@@ -15,7 +15,15 @@ header{
     padding: 20px;
     background-color: #E8F9FD;
 }
-
+#tituloIndex{
+    color: #E8F9FD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
 #descripcionIndex{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -6,7 +6,25 @@
 }
 
 body {
+  background-color: #E8F9FD;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 110px;
+}
+
+#navegador, #navegadorSecundario {
   background-color: #79DAE8;
+  border: solid 2px black;
+}
+
+.navbar-dark .navbar-brand {
+  color: #3b5998;
+  font-size: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #3b5998;
+  font-size: 20px;
 }
 
 header {
@@ -16,7 +34,22 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   padding: 20px;
-  background-color: #E8F9FD;
+  background-color: #79DAE8;
+}
+
+#tituloIndex, #telefonoDireccion {
+  color: #3b5998;
+  margin: 20px 20px;
+}
+
+#telefonoDireccion {
+  font-size: 35px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
 }
 
 #descripcionIndex {
@@ -26,17 +59,22 @@ header {
   text-align: center;
 }
 
+#tituloContacto {
+  color: #3b5998;
+}
+
 #footerTodos {
-  background-color: #2155CD;
+  background-color: #79DAE8;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  color: #E8F9FD;
+  color: #3b5998;
   width: 100%;
-  position: fixed;
+  position: absolute;
   left: 0px;
   bottom: 0px;
-  width: 100%;
+  border: solid 2px black;
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
