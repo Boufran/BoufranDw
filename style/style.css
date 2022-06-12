@@ -3,16 +3,14 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-html{
-  height: 100%;
+  image-rendering: auto;
 }
 
 body {
   background-color: #E8F9FD;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 110px;
 }
 
 #navegador, #navegadorSecundario {
@@ -45,6 +43,12 @@ header {
   margin: 20px 20px;
 }
 
+#tituloServicios {
+  color: #3b5998;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #telefonoDireccion {
   font-size: 35px;
 }
@@ -53,6 +57,10 @@ header {
 .carousel-control-prev {
   -webkit-filter: invert(100%);
           filter: invert(100%);
+}
+
+.bgColorTable {
+  background-color: #79DAE8;
 }
 
 #descripcionIndex {
@@ -74,22 +82,35 @@ header {
   text-align: center;
   color: #3b5998;
   width: 100%;
-  margin-top: auto;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
   border: solid 2px black;
-  height: 100px;
+  height: 120px;
+}
+
+.tituloA {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.margenTabla {
+  margin-left: 20px;
+}
+
+.letraChica {
+  font-size: 10px;
+}
+
+.bordeTabla {
+  border: solid 2px #3b5998;
+}
+
+.titulos {
+  color: #3b5998;
+}
+
+.margenServicios {
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
-/* 
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-footer {
-  margin-top: auto;
-} */
